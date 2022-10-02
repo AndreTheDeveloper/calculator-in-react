@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-template-areas:
+    "total total total total"
+    "row2"
+    "row3"
+    "row4"
+    "row5"
+    "num0 num0 row6";
+}
+
+.row1 {
+  grid-area: "total";
+}
+
+.row2 {
+  grid-area: "row2";
+}
+
+.row3 {
+  grid-area: "row3";
+}
+
+.row4 {
+  grid-area: "row4";
+}
+
+.row5 {
+  grid-area: "row5";
+}
+
+.row6 {
+  grid-area: "row6";
+}
+
+.num0 {
+  grid-area: "num0";
+}
